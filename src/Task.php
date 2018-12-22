@@ -1,12 +1,12 @@
 <?php
 
-namespace pl125\task;
+namespace pl125\cron;
 
 use Closure;
 use Cron\CronExpression;
 use Jenssegers\Date\Date;
-use pl125\task\traits\ManagesFrequencies;
-use pl125\task\library\FileCache;
+use pl125\cron\traits\ManagesFrequencies;
+use pl125\cron\library\FileCache;
 
 /**
  * 任务抽象类

@@ -6,7 +6,7 @@
  * Time: 18:08
  */
 
-namespace pl125\task\library;
+namespace pl125\cron\library;
 
 /**
  * 文件类型缓存类

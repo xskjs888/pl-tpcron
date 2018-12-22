@@ -1,19 +1,19 @@
 <?php
 
-namespace pl125\task\command;
+namespace pl125\cron\command;
 
 use Jenssegers\Date\Date;
 use think\console\Command;
 use think\console\Input;
 use think\console\Output;
-use pl125\task\Task;
-use pl125\task\library\FileCache;
+use pl125\cron\Task;
+use pl125\cron\library\FileCache;
 
 /**
  * 执行类
  *
  * Class Run
- * @package pl125\task\command
+ * @package pl125\cron\command
  */
 class Run extends Command
 {

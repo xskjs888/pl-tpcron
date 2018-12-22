@@ -1,6 +1,6 @@
 <?php
 
-namespace pl125\task\traits;
+namespace pl125\cron\traits;
 
 use Jenssegers\Date\Date;
 
