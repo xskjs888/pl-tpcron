@@ -1,0 +1,22 @@
+{
+    "name": "pl125/pl-tpcron",
+    "description": "timing task based on thinkphp",
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/framework": "5.0.*",
+        "jenssegers/date": "3.4",
+        "mtdowling/cron-expression": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "pl125",
+            "email": "xskjs888@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "pl125\\task\\": "pl-tpcron/task"
+        }
+    },
+    "minimum-stability": "dev"
+}
