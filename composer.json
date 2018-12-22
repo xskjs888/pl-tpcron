@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4":{
-            "pl125\\cron\\": "pl-tpcron/src"
+            "pl125\\cron\\": "src"
         },
         "files": [
             "src/helper.php"
